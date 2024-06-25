@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    cursor: url('./Img/Q.png'),auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    
+}
+
+body {
+    font-family: 'Noto Sans KR', 'Roboto';
+    line-height: 33px;
+    letter-spacing : -.5px;
+    background-color: #000000;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.container {
+    width:1270px;
+    margin:0 auto;
+    }
+
+header img {
+    width: 5.5vh;
+    padding: 0.75rem 0;
+}
+header > div {display: flex;justify-content: space-between;align-items: center;}
+header h1 {position:absolute;left:-2000px;}
+header nav ul {display:flex;text-align: right;}
+header nav ul li {padding: 20px 10px;width: 88px;}
+
+header {
+    background-color: #000000;
+  }
+header nav ul li {padding: 0 5px;width: 100px;}
+header nav ul li a {
+                position:relative;
+                display:inline-block;
+                line-height:3rem;
+                text-align: center;
+                font-weight: bold;font-size:1rem;
+                color: #fff;
+                }
+header nav ul li.active a {color: #00ffcc;}
+a{
+    text-decoration: none; 
+    font-weight:bold;
+    transition: color 1s;
+  }
+  a:visited, a:linked {
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+
+  #main {
+      position: relative;
+      width: 100%;
+      height: 3500px;
+      background-image: url(./Img/PC_.png); 
+      background-repeat: no-repeat center center fixed;
+      background-size: cover;
+  }
+
+#contents {
+    position: absolute;
+    top: 121px;
+    width: 1200px;
+    margin-left: 150px;
+    font-size: 1.2rem;
+}
+
+#contents1 {
+    position: absolute;
+    top:96px;
+    transform: translateY(344px);
+    width: 1200px;
+    margin-left: 150px;
+    font-size: 1.2rem;
+}
+
+#contents2 {
+    position: absolute;
+    top: 305px;
+    transform: translateY(842px);
+    width: 800px;
+    margin-left: 150px;
+    font-size: 1.2rem;
+}
+
+#contents3 {
+    transform: translateY(1479px);
+    width: 260px;
+    margin-right: 80px;
+    float: right;
+    font-size: 1rem;
+    line-height: 29px;
+}
+
+
+#imgcontainer {
+    position:absolute;
+    top:1495px;
+    margin-left: 150px;
+}
+
+#imgcontainer1 {
+    position: absolute;
+    top: 2367px;
+    margin-left: 150px;
+    
+}
+
+#top {
+    position:absolute;
+    top: 3300px;
+    padding-left: 80%;
+}
